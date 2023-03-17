@@ -2,6 +2,8 @@
 #include <sys/wait.h>
 #include <string.h>
 
+int BUFFER_SIZE=0;
+
 int	error_msg(char *str, char *arg)
 {
 	while (*str)
